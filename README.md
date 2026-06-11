@@ -1,7 +1,11 @@
 # SLC: State-space Logit Correction
 
-Anonymous code repository for the ECML-PKDD 2026 submission:
+Official code repository for the paper:
 **"Recovering Stranded Discrimination in Knowledge Tracing: Per-Item Bias Correction via Empirical-Bayes Shrinkage"**
+
+Xiaoran Yan, Cheng Tang, Atsushi Shimada (Kyushu University)
+
+Accepted at **ECML PKDD 2026** (Research Track).
 
 ## Overview
 
