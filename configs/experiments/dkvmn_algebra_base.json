@@ -1,0 +1,13 @@
+{
+  "_comment": "DKVMN base training on merged Algebra (sampled) (paper workspace).",
+  "include": [
+    "roots/paper.json",
+    "datasets/algebra_merged_pid_uid_time.json",
+    "models/dkvmn.json",
+    "runtimes/gpu_fast.json",
+    "training/dkvmn_default.json"
+  ],
+  "keep_model_files": true,
+  "save_tag": "final_dkvmn_algebra_base"
+}
+

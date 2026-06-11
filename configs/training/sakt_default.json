@@ -1,0 +1,14 @@
+{
+  "_comment": "Training defaults for SAKT (paper runs).",
+
+  "max_iter": 600,
+  "batch_size": 128,
+  "eval_batch_size": 256,
+
+  "lr": 1e-3,
+  "weight_decay": 0.0,
+
+  "early_stop_patience": 40,
+  "early_stop_warmup": 0,
+  "early_stop_min_delta": 0.0
+}

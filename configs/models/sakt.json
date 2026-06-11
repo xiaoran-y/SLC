@@ -1,0 +1,9 @@
+{
+  "_comment": "SAKT backbone (PyKT-style). Note: uses next-step protocol; THDF lives outside the backbone.",
+  "model": "sakt",
+  "d_model": 64,
+  "n_head": 8,
+  "n_block": 2,
+  "dropout": 0.5
+}
+

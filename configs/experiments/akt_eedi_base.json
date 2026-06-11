@@ -1,0 +1,12 @@
+{
+  "_comment": "AKT-PID base training on Eedi Task1&2 (full).",
+  "include": [
+    "roots/paper.json",
+    "datasets/eedi_task12_pid_uid_time.json",
+    "models/akt_pid.json",
+    "runtimes/gpu_fast.json",
+    "training/default.json"
+  ],
+  "keep_model_files": true,
+  "save_tag": "final_akt_eedi_base"
+}

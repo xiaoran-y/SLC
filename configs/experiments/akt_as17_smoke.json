@@ -1,0 +1,13 @@
+{
+  "_comment": "Fast smoke run (few epochs, no ckpt).",
+  "include": [
+    "roots/paper.json",
+    "datasets/assist2017_pid_uid_time_pos.json",
+    "models/akt_pid.json",
+    "runtimes/gpu_smoke.json",
+    "training/default.json"
+  ],
+  "max_iter": 3,
+  "keep_model_files": false,
+  "save_tag": "final_akt_as17_smoke"
+}

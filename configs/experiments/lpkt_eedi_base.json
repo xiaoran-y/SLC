@@ -1,0 +1,13 @@
+{
+  "_comment": "LPKT base training on Eedi (sampled Task1&2).",
+  "include": [
+    "roots/paper.json",
+    "datasets/eedi_task12_pid_uid_time.json",
+    "models/lpkt.json",
+    "runtimes/gpu_fast.json",
+    "training/lpkt_default.json"
+  ],
+  "torch_compile": "off",
+  "keep_model_files": true,
+  "save_tag": "final_lpkt_eedi_base"
+}

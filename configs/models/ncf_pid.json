@@ -1,0 +1,8 @@
+{
+  "_comment": "NCF backbone for non-KT control. Uses (uid,pid) only.",
+  "model": "ncf_pid",
+  "rec_emb_dim": 64,
+  "ncf_hidden_dims": "256,128,64",
+  "ncf_dropout": 0.1
+}
+

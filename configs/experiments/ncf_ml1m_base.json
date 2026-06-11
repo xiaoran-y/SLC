@@ -1,0 +1,13 @@
+{
+  "_comment": "NCF backbone on MovieLens-1M (non-KT control).",
+  "include": [
+    "roots/paper.json",
+    "datasets/ml1m_pid_uid_time.json",
+    "models/ncf_pid.json",
+    "runtimes/gpu_fast.json",
+    "training/rec_default.json"
+  ],
+  "keep_model_files": true,
+  "save_tag": "final_ncf_ml1m_base"
+}
+

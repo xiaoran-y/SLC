@@ -1,0 +1,13 @@
+{
+  "_comment": "LPKT base training on AS09 (control: drift-weak).",
+  "include": [
+    "roots/paper.json",
+    "datasets/assist2009_pid_uid_time.json",
+    "models/lpkt.json",
+    "runtimes/gpu_fast.json",
+    "training/lpkt_default.json"
+  ],
+  "torch_compile": "off",
+  "keep_model_files": true,
+  "save_tag": "final_lpkt_as09_base"
+}

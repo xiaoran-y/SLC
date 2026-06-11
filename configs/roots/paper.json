@@ -1,0 +1,6 @@
+{
+  "_comment": "Paper workspace paths (relative to the uploaded root).",
+  "data_root": "dataset",
+  "ckpt_root": "_ckpts",
+  "result_root": "_runs/result"
+}

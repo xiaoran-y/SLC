@@ -1,0 +1,13 @@
+{
+  "_comment": "SAKT base training on AS17 (paper workspace).",
+  "include": [
+    "roots/paper.json",
+    "datasets/assist2017_pid_uid_time_pos.json",
+    "models/sakt.json",
+    "runtimes/gpu_fast.json",
+    "training/sakt_default.json"
+  ],
+  "keep_model_files": true,
+  "save_tag": "final_sakt_as17_base"
+}
+

@@ -1,0 +1,15 @@
+{
+  "_comment": "Training defaults for MF/NCF on non-KT datasets (binary classification).",
+
+  "max_iter": 100,
+  "batch_size": 128,
+  "eval_batch_size": 256,
+
+  "lr": 1e-3,
+  "l2": 0.0,
+  "weight_decay": 0.0,
+
+  "early_stop_patience": 10,
+  "early_stop_warmup": 0,
+  "early_stop_min_delta": 0.0
+}

@@ -1,0 +1,12 @@
+{
+  "_comment": "AKT-PID base training on Algebra (merged, full).",
+  "include": [
+    "roots/paper.json",
+    "datasets/algebra_merged_pid_uid_time.json",
+    "models/akt_pid.json",
+    "runtimes/gpu_fast.json",
+    "training/default.json"
+  ],
+  "keep_model_files": true,
+  "save_tag": "final_akt_algebra_base"
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "LPKT backbone (qid mode). Note: THDF lives outside the backbone.",
+  "model": "lpkt",
+  "lpkt_d_a": 64,
+  "lpkt_d_e": 64,
+  "lpkt_d_k": 64,
+  "lpkt_dropout": 0.1,
+  "lpkt_gamma": 0.0,
+  "lpkt_use_time": "on",
+  "lpkt_n_it": 16,
+  "lpkt_n_at": 16
+}
+

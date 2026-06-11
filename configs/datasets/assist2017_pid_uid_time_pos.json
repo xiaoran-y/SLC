@@ -1,0 +1,6 @@
+{
+  "_comment": "AS17 (time_pos) is the primary time-drift dataset.",
+  "dataset": "assist2017_pid_uid_time_pos",
+  "train_set": 1
+}
+

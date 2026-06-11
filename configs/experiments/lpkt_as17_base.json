@@ -1,0 +1,13 @@
+{
+  "_comment": "LPKT base training on AS17 (paper workspace).",
+  "include": [
+    "roots/paper.json",
+    "datasets/assist2017_pid_uid_time_pos.json",
+    "models/lpkt.json",
+    "runtimes/gpu_fast.json",
+    "training/lpkt_default.json"
+  ],
+  "torch_compile": "off",
+  "keep_model_files": true,
+  "save_tag": "final_lpkt_as17_base"
+}

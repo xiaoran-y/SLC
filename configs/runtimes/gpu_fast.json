@@ -1,0 +1,12 @@
+{
+  "_comment": "Fast runtime defaults for paper runs (tuned for stability).",
+  "fast_gpu": "on",
+  "amp": "bf16",
+  "torch_compile": "reduce-overhead",
+  "inductor_cudagraphs": "off",
+  "data_backend": "torch_cuda",
+  "pin_memory": "on",
+  "metrics_backend": "torch",
+  "deterministic": "off"
+}
+

@@ -1,0 +1,12 @@
+{
+  "_comment": "AKT-PID base training on AS09 (control: drift-weak).",
+  "include": [
+    "roots/paper.json",
+    "datasets/assist2009_pid_uid_time.json",
+    "models/akt_pid.json",
+    "runtimes/gpu_fast.json",
+    "training/default.json"
+  ],
+  "keep_model_files": true,
+  "save_tag": "final_akt_as09_base"
+}

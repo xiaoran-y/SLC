@@ -1,0 +1,11 @@
+{
+  "_comment": "Smoke runtime defaults: match GPU settings but keep torch.compile off to reduce overhead.",
+  "fast_gpu": "on",
+  "amp": "bf16",
+  "torch_compile": "off",
+  "inductor_cudagraphs": "off",
+  "data_backend": "torch_cuda",
+  "pin_memory": "on",
+  "metrics_backend": "torch",
+  "deterministic": "off"
+}

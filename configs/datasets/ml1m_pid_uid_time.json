@@ -1,0 +1,6 @@
+{
+  "_comment": "MovieLens-1M (binary rating) processed with per-user time split.",
+  "dataset": "ml1m_pid_uid_time",
+  "train_set": 1
+}
+

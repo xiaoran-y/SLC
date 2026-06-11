@@ -1,0 +1,6 @@
+{
+  "_comment": "AS09 time-split. Note: pid-space is sparse for drift analysis; still usable for training/backbone sanity checks.",
+  "dataset": "assist2009_pid_uid_time",
+  "train_set": 1
+}
+

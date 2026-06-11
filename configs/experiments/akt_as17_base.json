@@ -1,0 +1,13 @@
+{
+  "_comment": "AKT-PID base training on AS17 (paper workspace).",
+  "include": [
+    "roots/paper.json",
+    "datasets/assist2017_pid_uid_time_pos.json",
+    "models/akt_pid.json",
+    "runtimes/gpu_fast.json",
+    "training/default.json"
+  ],
+  "keep_model_files": true,
+  "save_tag": "final_akt_as17_base"
+}
+

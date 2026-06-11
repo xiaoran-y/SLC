@@ -1,0 +1,6 @@
+{
+  "_comment": "MF (matrix factorization) backbone for non-KT control. Uses (uid,pid) only.",
+  "model": "mf_pid",
+  "rec_emb_dim": 64
+}
+

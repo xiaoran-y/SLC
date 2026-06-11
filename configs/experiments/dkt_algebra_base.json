@@ -1,0 +1,13 @@
+{
+  "_comment": "DKT base training on merged Algebra (sampled) (paper workspace).",
+  "include": [
+    "roots/paper.json",
+    "datasets/algebra_merged_pid_uid_time.json",
+    "models/dkt.json",
+    "runtimes/gpu_fast.json",
+    "training/dkt_default.json"
+  ],
+  "keep_model_files": true,
+  "save_tag": "final_dkt_algebra_base"
+}
+
