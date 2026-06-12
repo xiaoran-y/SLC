@@ -7,6 +7,8 @@ Xiaoran Yan, Cheng Tang, Atsushi Shimada (Kyushu University)
 
 Accepted at **ECML PKDD 2026** (Research Track).
 
+📄 **Supplementary material**: [supplementary.pdf](./supplementary.pdf) — per-backbone results, classic calibrator comparison, prior-variance sensitivity, ridge equivalence, link ablation, calibration-fraction sweep, and cross-domain experiments.
+
 ## Overview
 
 SLC is a lightweight post-hoc correction method that recovers per-item AUC headroom stranded by global calibrators. It models per-item logit bias as a Gaussian random effect and applies empirical-Bayes shrinkage via a Kalman smoother.
